@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroHéroes - ¡Potenciando el Aprendizaje!</title>
+    <!-- Carga de Tailwind CSS para estilos modernos y responsivos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Preconexión a dominios de Google Fonts para un mejor rendimiento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Carga de las fuentes Inter y Poppins desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F7F5F2; color: #333; line-height: 1.6; }
+        h1, h2, h3, h4 { font-family: 'Poppins', sans-serif; color: #22577A; }
+        .btn-primary {
+            @apply bg-[#57CC99] text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-[#38A3A5] transition-colors duration-300 transform hover:scale-105;
+        }
+        .section-heading {
+            @apply text-4xl sm:text-5xl font-extrabold text-[#22577A] text-center mb-10;
+        }
+        .feature-card {
+            @apply bg-white p-6 rounded-xl shadow-lg border-l-4 border-[#80ED99] transform hover:scale-105 transition-transform duration-200;
+        }
+        .feature-icon {
+            @apply text-4xl text-[#38A3A5] mb-4;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-[#57CC99] to-[#38A3A5] py-20 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center min-h-[60vh] md:min-h-[80vh] overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-20 z-0" style="background-image: url('https://i.ibb.co/Wvth65jr/Neuro-Heroes-1.png');"></div>
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <img src="https://i.ibb.co/TqBcLXSb/Whats-App-Image-2025-05-21-at-09-59-59.jpg" alt="Logo NeuroHéroes" class="w-32 h-32 sm:w-48 sm:h-48 mx-auto mb-6 rounded-full shadow-xl animate-bounce-slow">
+            <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                NeuroHéroes: ¡Despierta el Genio en Cada Niño!
+            </h1>
+            <p class="text-xl sm:text-2xl text-white text-opacity-90 mb-10 max-w-2xl mx-auto">
+                Estrategias educativas innovadoras para potenciar la atención, el lenguaje, la motricidad y las emociones de tus pequeños héroes.
+            </p>
+            <a href="https://your-github-username.github.io/NeuroHeroes-PWA/" target="_blank" class="btn-primary inline-block text-lg">
+                ¡Explora la App Ahora!
+            </a>
+            <p class="text-sm text-white text-opacity-70 mt-4">
+                (Funciona como aplicación en tu móvil y tableta)
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección: ¿Qué es NeuroHéroes? -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <h2 class="section-heading">¿Qué es NeuroHéroes?</h2>
+        <div class="flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/2">
+                <img src="https://i.ibb.co/Wvth65jr/Neuro-Heroes-1.png" alt="Niños aprendiendo" class="rounded-xl shadow-2xl w-full">
+            </div>
+            <div class="md:w-1/2 text-lg text-gray-700">
+                <p class="mb-4">
+                    NeuroHéroes es una aplicación web progresiva (PWA) diseñada para ser un puente entre la educación y la diversión. Ofrecemos un universo de estrategias pedagógicas adaptadas para niños de Nivel Inicial hasta Cuarto Grado, enfocadas en estimular áreas clave del desarrollo.
+                </p>
+                <p>
+                    Creemos firmemente que el aprendizaje es más efectivo cuando es una aventura emocionante. Por eso, nuestras actividades están pensadas para ser didácticas, interactivas y, sobre todo, ¡divertidas!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Beneficios y Áreas Clave -->
+    <section class="bg-[#E0F7F2] py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="section-heading">Nuestras Superhabilidades Educativas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="text-2xl font-bold mb-3">Atención y Concentración</h3>
+                    <p class="text-gray-600">
+                        A través de ejercicios lúdicos y canciones, ayudamos a los niños a mejorar su enfoque y a mantener la concentración, sentando bases sólidas para cualquier aprendizaje futuro.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🗣️</div>
+                    <h3 class="text-2xl font-bold mb-3">Estimulación del Lenguaje</h3>
+                    <p class="text-gray-600">
+                        Desde el reconocimiento de vocales y consonantes hasta la construcción de palabras, nuestras actividades musicales y visuales hacen que aprender a leer y escribir sea una melodía.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✋</div>
+                    <h3 class="text-2xl font-bold mb-3">Motricidad Fina</h3>
+                    <p class="text-gray-600">
+                        Con actividades de trazado, coloreado y recorte, fortalecemos la coordinación mano-ojo y la precisión, habilidades esenciales para la escritura y la vida diaria.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">😊</div>
+                    <h3 class="text-2xl font-bold mb-3">Inteligencia Emocional</h3>
+                    <p class="text-gray-600">
+                        Exploramos y identificamos las emociones a través del arte y actividades interactivas, promoviendo la expresión y la confianza en sí mismos.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🐾</div>
+                    <h3 class="text-2xl font-bold mb-3">Reconocimiento del Entorno</h3>
+                    <p class="text-gray-600">
+                        Desde el fascinante mundo animal hasta los objetos cotidianos y los oficios, ampliamos su vocabulario y su comprensión del mundo que los rodea.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧩</div>
+                    <h3 class="text-2xl font-bold mb-3">Lógica y Memoria</h3>
+                    <p class="text-gray-600">
+                        Juegos de memoria y patrones de trazado desafían y desarrollan el pensamiento lógico y la capacidad de retención de información.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Niveles de Aprendizaje (con imágenes de vocales/números) -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <h2 class="section-heading">Un Viaje Educativo por Niveles</h2>
+        <p class="text-center text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
+            NeuroHéroes se adapta al ritmo de cada niño, ofreciendo contenidos específicos para cada etapa de su desarrollo.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="text-lg text-gray-700 space-y-6">
+                <div>
+                    <h3 class="text-3xl font-bold text-[#38A3A5] mb-2">Nivel Inicial: Primeros Pasos Mágicos</h3>
+                    <p>Canciones, reconocimiento de vocales y atención. ¡Un inicio divertido para los más pequeños!</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-[#38A3A5] mb-2">1er Grado: Descubriendo el Mundo</h3>
+                    <p>Reconocimiento de animales, objetos, emociones y trazado de vocales y números. ¡Una explosión de conocimiento!</p>
+                    <div class="flex flex-wrap gap-4 justify-center mt-4">
+                        <img src="https://i.ibb.co/Ngz3JkXS/vocales.jpg" alt="Plantilla de Vocales" class="w-32 h-auto rounded-lg shadow-md border">
+                        <img src="https://i.ibb.co/35s0n2Dq/numeros.jpg" alt="Plantilla de Números" class="w-32 h-auto rounded-lg shadow-md border">
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-[#38A3A5] mb-2">2do Grado: Avanzando y Creando</h3>
+                    <p>Colorear y identificar vocales y números, motricidad fina con recortes y consolidación numérica. ¡Manos a la obra!</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-[#38A3A5] mb-2">3er Grado: Consolidando el Saber</h3>
+                    <p>El abecedario, consonantes y formación de palabras mediante sonidos. ¡La aventura de la lectura comienza!</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-[#38A3A5] mb-2">4to Grado: Explorando y Aplicando</h3>
+                    <p>Identificación de oficios, formación de palabras y actividades sensoriales de relleno. ¡Conectando el aprendizaje con el mundo real!</p>
+                    <div class="flex flex-wrap gap-4 justify-center mt-4">
+                        <img src="https://i.ibb.co/pBq0kSjQ/numeros2.jpg" alt="Lámina de Números" class="w-32 h-auto rounded-lg shadow-md border">
+                        <img src="https://i.ibb.co/QjT2gm9t/vocales2.jpg" alt="Lámina de Vocales" class="w-32 h-auto rounded-lg shadow-md border">
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://i.ibb.co/Wvth65jr/Neuro-Heroes-1.png" alt="Niños en el aula" class="rounded-xl shadow-2xl w-full">
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Final -->
+    <section class="bg-[#22577A] text-white py-16 px-4 sm:px-6 lg:px-8 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl sm:text-5xl font-bold mb-6">¡Únete a la Aventura de NeuroHéroes!</h2>
+            <p class="text-xl text-white text-opacity-90 mb-8">
+                Prepara a tus hijos para el futuro con una herramienta educativa que convierte cada lección en un juego.
+            </p>
+            <a href="https://your-github-username.github.io/NeuroHeroes-PWA/" target="_blank" class="btn-primary inline-block text-xl">
+                Descarga NeuroHéroes Ahora
+            </a>
+            <p class="text-sm text-white text-opacity-70 mt-4">
+                (Es una PWA, ¡no necesita tienda de apps!)
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#22577A] bg-opacity-90 text-white text-center py-6 px-4 sm:px-6 lg:px-8 text-sm">
+        <p>&copy; 2025 NeuroHéroes. Todos los derechos reservados.</p>
+        <p>Diseñado para potenciar el aprendizaje y el desarrollo de tus hijos.</p>
+    </footer>
+
+</body>
+</html>
